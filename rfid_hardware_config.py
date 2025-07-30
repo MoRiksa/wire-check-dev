@@ -7,7 +7,7 @@ RFID_CONFIG = {
     # RDM6300 RX -> GPIO 14 (TXD)
     # RDM6300 TX -> GPIO 15 (RXD) 
     # RDM6300 VCC -> 5V, GND -> GND
-    'port': '/dev/ttyAMA0',  # Hardware UART GPIO 14-15
+    'port': '/dev/serial0',  # Hardware UART GPIO 14-15
                              # Enable: sudo raspi-config -> Interface -> Serial
                              # Add 'enable_uart=1' to /boot/config.txt
     
@@ -15,9 +15,10 @@ RFID_CONFIG = {
     'timeout': 1,            # Serial read timeout
     
     # Card ID format
-    'card_id_length': 10,    # RDM6300 sends 10-byte card ID
-    'start_byte': 0x02,      # STX byte
-    'end_byte': 0x03,        # ETX byte
+    'data_length': 14,       # RDM6300 sends 14 bytes total
+    'card_id_length': 10,    # Card ID is 10 bytes (position 1-10)
+    'start_byte': 0x02,      # STX byte (position 0)
+    'end_byte': 0x03,        # ETX byte (position 13)
 }
 
 # GPIO Pin Configuration
