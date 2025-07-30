@@ -81,7 +81,8 @@ class SimpleRFIDTest:
         self.card_id_entry.pack(pady=5)
         self.card_id_entry.insert(0, "1234567890")  # Default test card
         
-        # Scan button\n        scan_btn = tk.Button(rfid_frame, text="📱 SCAN CARD", 
+        # Scan button
+        scan_btn = tk.Button(rfid_frame, text="📱 SCAN CARD", 
                             font=('Arial', 12, 'bold'),
                             bg='#007bff', fg='white',
                             width=20, height=2,
@@ -121,7 +122,7 @@ class SimpleRFIDTest:
     def log_activity(self, message):
         """Log activity with timestamp"""
         timestamp = datetime.now().strftime('%H:%M:%S')
-        log_entry = f"[{timestamp}] {message}\\n"
+        log_entry = f"[{timestamp}] {message}\n"
         self.log_text.insert(tk.END, log_entry)
         self.log_text.see(tk.END)
         self.root.update()
@@ -137,7 +138,7 @@ class SimpleRFIDTest:
         
         self.log_activity(f"🔒 SYSTEM LOCKED: {self.lock_reason}")
         messagebox.showwarning("System Locked", 
-                              f"System locked due to: {self.lock_reason}\\n\\n"
+                              f"System locked due to: {self.lock_reason}\n\n"
                               "Use authorized RFID card to unlock.")
     
     def unlock_system(self):
@@ -182,14 +183,14 @@ class SimpleRFIDTest:
                 
                 self.log_activity(f"🔓 SYSTEM UNLOCKED by: {card_info['name']}")
                 messagebox.showinfo("Access Granted", 
-                                   f"System unlocked by:\\n{card_info['name']} ({card_info['level']})")
+                                   f"System unlocked by:\n{card_info['name']} ({card_info['level']})")
             else:
                 messagebox.showinfo("Access Granted", 
-                                   f"Card recognized:\\n{card_info['name']} ({card_info['level']})\\n\\nSystem already unlocked.")
+                                   f"Card recognized:\n{card_info['name']} ({card_info['level']})\n\nSystem already unlocked.")
         else:
             self.log_activity(f"❌ Card unauthorized: {card_id}")
             messagebox.showerror("Access Denied", 
-                               f"Card {card_id} is not authorized!\\n\\nAccess denied.")
+                               f"Card {card_id} is not authorized!\n\nAccess denied.")
     
     def add_test_scenarios(self):
         """Add test scenario buttons"""
