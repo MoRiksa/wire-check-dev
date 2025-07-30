@@ -1,0 +1,39 @@
+# Wire Checker Pin Configuration Template
+# Copy this template and fill in your configuration
+
+# Product Information
+Product Name: [Enter your product name here]
+Product No: [Enter your product number here]
+
+# Wire Pair Configuration
+# Format: Pair X: GPIO[OUT_PIN] -> GPIO[IN_PIN]
+# Example: Pair 1: GPIO17 -> GPIO27
+
+Pair 1: GPIO__ -> GPIO__
+Pair 2: GPIO__ -> GPIO__
+Pair 3: GPIO__ -> GPIO__
+Pair 4: GPIO__ -> GPIO__
+Pair 5: GPIO__ -> GPIO__
+Pair 6: GPIO__ -> GPIO__
+
+# Instructions:
+# 1. Fill in the Product Name and Product No
+# 2. For each wire pair you want to test:
+#    - Replace __ with the actual GPIO pin numbers
+#    - OUT_PIN is the GPIO pin that sends the signal
+#    - IN_PIN is the GPIO pin that receives the signal
+# 3. Leave unused pairs blank or delete them
+# 4. Save this file and use "Load from Template" in the Pin Configuration Form
+
+# Example Configuration:
+# Product Name: Test Wire Assembly
+# Product No: TWA-001
+# Pair 1: GPIO17 -> GPIO27
+# Pair 2: GPIO22 -> GPIO10
+# Pair 3: GPIO9 -> GPIO11
+# Pair 4: GPIO5 -> GPIO6
+
+# Notes:
+# - Each GPIO pin can only be used once
+# - Valid GPIO pins: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27
+# - Avoid using pins 2, 3, 4 (used for LEDs), 13, 15 (used for solenoids), 18 (used for buzzer)

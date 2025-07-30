@@ -1,0 +1,191 @@
+[
+  {
+    "timestamp": "2025-07-30T19:25:16.961510",
+    "card_id": "1122334455",
+    "card_name": "Manager Card",
+    "card_level": "manager",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:25:22.284505",
+    "card_id": "1234567890",
+    "card_name": "Supervisor Card",
+    "card_level": "admin",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:25:25.914969",
+    "card_id": "1122334455",
+    "card_name": "Manager Card",
+    "card_level": "manager",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:25:26.634620",
+    "card_id": "1234567890",
+    "card_name": "Supervisor Card",
+    "card_level": "admin",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:25:27.265290",
+    "card_id": "0987654321",
+    "card_name": "Technician Card",
+    "card_level": "tech",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:25:27.994914",
+    "card_id": "1234567890",
+    "card_name": "Supervisor Card",
+    "card_level": "admin",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:25:29.220623",
+    "card_id": "1122334455",
+    "card_name": "Manager Card",
+    "card_level": "manager",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:25:34.762899",
+    "card_id": "1234567890",
+    "card_name": "Supervisor Card",
+    "card_level": "admin",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:25:35.583038",
+    "card_id": "0987654321",
+    "card_name": "Technician Card",
+    "card_level": "tech",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:25:36.813931",
+    "card_id": "1234567890",
+    "card_name": "Supervisor Card",
+    "card_level": "admin",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:25:37.343335",
+    "card_id": "0987654321",
+    "card_name": "Technician Card",
+    "card_level": "tech",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:25:40.377426",
+    "card_id": "1234567890",
+    "card_name": "Supervisor Card",
+    "card_level": "admin",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:25:45.729863",
+    "card_id": "1234567890",
+    "card_name": "Supervisor Card",
+    "card_level": "admin",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:25:49.160608",
+    "card_id": "0987654321",
+    "card_name": "Technician Card",
+    "card_level": "tech",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:25:50.891019",
+    "card_id": "1234567890",
+    "card_name": "Supervisor Card",
+    "card_level": "admin",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:25:53.119445",
+    "card_id": "0987654321",
+    "card_name": "Technician Card",
+    "card_level": "tech",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:25:56.669600",
+    "card_id": "1234567890",
+    "card_name": "Supervisor Card",
+    "card_level": "admin",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:25:58.298037",
+    "card_id": "1122334455",
+    "card_name": "Manager Card",
+    "card_level": "manager",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:25:59.122882",
+    "card_id": "0987654321",
+    "card_name": "Technician Card",
+    "card_level": "tech",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:26:00.651150",
+    "card_id": "1122334455",
+    "card_name": "Manager Card",
+    "card_level": "manager",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:26:01.879227",
+    "card_id": "1234567890",
+    "card_name": "Supervisor Card",
+    "card_level": "admin",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:26:02.402016",
+    "card_id": "1234567890",
+    "card_name": "Supervisor Card",
+    "card_level": "admin",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:26:04.330939",
+    "card_id": "1122334455",
+    "card_name": "Manager Card",
+    "card_level": "manager",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:26:08.778575",
+    "card_id": "1234567890",
+    "card_name": "Supervisor Card",
+    "card_level": "admin",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:26:12.015707",
+    "card_id": "0987654321",
+    "card_name": "Technician Card",
+    "card_level": "tech",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:26:15.153916",
+    "card_id": "1122334455",
+    "card_name": "Manager Card",
+    "card_level": "manager",
+    "lock_reason": ""
+  },
+  {
+    "timestamp": "2025-07-30T19:26:15.879887",
+    "card_id": "1234567890",
+    "card_name": "Supervisor Card",
+    "card_level": "admin",
+    "lock_reason": ""
+  }
+]

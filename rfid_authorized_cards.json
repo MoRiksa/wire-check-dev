@@ -1,0 +1,20 @@
+{
+    "authorized_cards": [
+        {
+            "id": "1234567890",
+            "name": "Supervisor Card",
+            "level": "admin"
+        },
+        {
+            "id": "0987654321",
+            "name": "Technician Card",
+            "level": "tech"
+        },
+        {
+            "id": "1122334455",
+            "name": "Manager Card",
+            "level": "manager"
+        }
+    ],
+    "updated_at": "2025-07-30T19:25:16.056624"
+}

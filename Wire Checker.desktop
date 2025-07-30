@@ -1,0 +1,10 @@
+ [Desktop Entry]
+Version=1.0
+Type=Application
+Name=Wire Checker
+Comment=Wire Checker System for testing wire connections
+Exec=/home/pi/wire_checker_launcher.sh
+Icon=/home/pi/wire_checker_icon.png
+Terminal=false
+Categories=Utility;Electronics;
+Keywords=wire;checker;raspberry;gpio;

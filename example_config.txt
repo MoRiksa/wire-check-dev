@@ -1,0 +1,24 @@
+# Wire Checker Pin Configuration Example
+# This is a working example configuration
+
+# Product Information
+Product Name: Example Wire Harness
+Product No: EWH-001
+
+# Wire Pair Configuration
+# Format: Pair X: GPIOX -> GPIOY (where X is OUT pin, Y is IN pin)
+Pair 1: GPIO17 -> GPIO27
+Pair 2: GPIO22 -> GPIO10
+Pair 3: GPIO9 -> GPIO11
+Pair 4: GPIO5 -> GPIO6
+
+# Instructions:
+# 1. This example shows a 4-pair configuration
+# 2. You can modify the GPIO pin numbers as needed
+# 3. Save this file and use "Load from File" in the Pin Configuration Form
+# 4. Each GPIO pin can only be used once
+# 5. Avoid pins 2,3,4 (LEDs), 13,15 (solenoids), 18 (buzzer)
+
+# Additional pairs can be added:
+# Pair 5: GPIO7 -> GPIO8
+# Pair 6: GPIO19 -> GPIO20
